@@ -27,9 +27,9 @@ public class Application implements CommandLineRunner {
     public void run(String... strings) {
 
         // Creating sample test users
-        User shubham = new User(1L, "Shubham", 15);
-        User pankaj = new User(2L, "Pankaj", 5);
-        User lewis = new User(3L, "Lewis", 21);
+        User shubham = new User(1L, "Sample User1", 15);
+        User pankaj = new User(2L, "Sample User2", 5);
+        User lewis = new User(3L, "Sample User3", 21);
 
         userRepository.save(shubham);
         userRepository.save(pankaj);
